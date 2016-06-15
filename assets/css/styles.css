@@ -80,7 +80,7 @@ th {
 
 .stage {
 	background-color:#ddd;
-	padding-top:30%;
+	padding-top:50%;
 	width: 80%;
 	position: relative;
 }
@@ -88,31 +88,55 @@ th {
 @keyframes bounce {
 	0% {
 		top:20%
+	10% {
+		top:80%;
 	}
-
 	20% {
-		top: 80%;	
+		top:44%;
 	}
-
-	40% {
-		top: 40%;	
+	28% {
+		top:80%;
 	}
-
-	60% {
-		top: 80%;	
+	36% {
+		top:58.5%;
 	}
-
-	80% {
-		top: 60%;
+	42.5% {
+		top: 80%;
 	}
-
+	49% {
+		top: 67%;
+	}
+	55%{
+		top:80%;
+	}
+	61%{
+		top:72%;
+	}
+	67% {
+		top:80%;
+	}
+	73% {
+		top:75%;
+	}
+	78% {
+		top:80%;
+	}
+	83% {
+		top:77%;
+	}
+	88%{
+		top:80%;
+	}
+	93%{
+		top:79%;
+	}
 	100% {
 		top:80%;	
 	}
 }
 
 .stage:hover .bounce {
-	animation: bounce 2s ease-in-out infinite;
+	animation: bounce 5s ease-in-out infinite;
 }
 
 /*>>>>>>>>>>>> Footer Nav <<<<<<<<<<<<<<<*/
