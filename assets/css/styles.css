@@ -1,0 +1,115 @@
+/*>>>>>>>>>> Set Backgrounds <<<<<<<<<<*/
+body{
+	background-color:#aaa;
+}
+
+.main-content {
+	background-color:#ddd;
+}
+
+/*>>>>>>>>>> Set Fonts <<<<<<<<<<<*/
+h1, h2, h4 {
+	font-family: 'Righteous', cursive;
+}
+
+form, button, p, blockquote, li, th, td {
+	font-family: "Poppins", sans-serif;
+}
+
+/*>>>>>>>>>>>>> Navbar Elements <<<<<<<<<<<*/
+
+.navbar-inverse .navbar-nav>.active>a {
+	background-color: #222;
+}
+
+.navbar h1 {
+	font-size: 24px;
+	color: #fff;
+}
+
+#main-nav {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+/*>>>>>>>>>>> Body Elements <<<<<<<<<*/
+
+blockquote {
+	font-style: italic; 
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+th {
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.main-content {
+	padding-bottom: 50px;
+	border-radius: 10px;
+}
+
+.button-header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#prophecy {
+	border: none;
+}
+
+/*>>>>>>>>>>>> Footer Nav <<<<<<<<<<<<<<<*/
+#footer-nav {
+	display: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#footer-nav ul li {
+	font-size: 14px;
+}
+
+/*>>>>>>>>>>>> Styling for Desktops and Larger <<<<<<<<<<<<*/
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        margin-right: 20px;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+	.navbar .navbar-header {
+		float: none;
+		text-align: center;
+	}
+	.navbar h1, h2 {
+		font-size: 3vmax;
+	}
+
+	h4 {
+		font-size: 1.5vmax;
+	}
+
+	.navbar li {
+		font-size: 1.5vmax;
+	}
+
+	#playTable {
+		width: 40%;
+	}
+
+	#footer-nav {
+		display: initial;
+	}
+}
