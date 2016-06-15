@@ -65,6 +65,56 @@ th {
 	border: none;
 }
 
+/*>>>>>>>>>>>> Ping-Pong Animation <<<<<<<<<<*/
+
+.ball {
+	padding-top:10%;
+	width: 10%;
+	border-radius: 50%;
+	position: absolute;
+	top: 20%;
+	left: 45%;
+	background-color: #fff;
+	
+}
+
+.stage {
+	background-color:#ddd;
+	padding-top:30%;
+	width: 80%;
+	position: relative;
+}
+
+@keyframes bounce {
+	0% {
+		top:20%
+	}
+
+	20% {
+		top: 80%;	
+	}
+
+	40% {
+		top: 40%;	
+	}
+
+	60% {
+		top: 80%;	
+	}
+
+	80% {
+		top: 60%;
+	}
+
+	100% {
+		top:80%;	
+	}
+}
+
+.stage:hover .bounce {
+	animation: bounce 2s ease-in-out infinite;
+}
+
 /*>>>>>>>>>>>> Footer Nav <<<<<<<<<<<<<<<*/
 #footer-nav {
 	display: none;
