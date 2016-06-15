@@ -66,7 +66,7 @@ th {
 }
 
 /****************************** Ping-Pong Animation ******************************/
-
+/*
 .ball {
 	padding-top:10%;
 	width: 10%;
@@ -82,8 +82,8 @@ th {
 	padding-top:50%;
 	width: 80%;
 	position: relative;
-}
-
+}*/
+/*
 @keyframes bounce {
 	0% {
 		top:20%;
@@ -148,14 +148,14 @@ th {
 	100% {
 		top:80%;	
 	}
-}
-
-.stage:hover .bounce{
+}*/
+/*
+.stage:hover .bounce {
 	animation: bounce 5s ease-in-out infinite;
-}
+}*/
 
 /******************************* Footer Nav ******************************/
-#footer-nav {
+/*#footer-nav {
 	display: none;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -163,11 +163,11 @@ th {
 
 #footer-nav ul li {
 	font-size: 14px;
-}
+}*/
 
 /****************************** Styling for Desktops and Larger ******************************/
 
-@media (min-width: 768px) {
+/*@media (min-width: 200px) {*/
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
@@ -201,4 +201,3 @@ th {
 	#footer-nav {
 		display: initial;
 	}
-}

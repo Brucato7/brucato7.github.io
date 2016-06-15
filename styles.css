@@ -1,4 +1,4 @@
-/****************************** Set Backgrounds ******************************/
+/* Set Backgrounds */
 body{
 	background-color:#aaa;
 }
@@ -7,7 +7,7 @@ body{
 	background-color:#ddd;
 }
 
-/******************************* Set Fonts ******************************/
+/* Set Fonts */
 h1, h2, h4 {
 	font-family: 'Righteous', cursive;
 }
@@ -16,7 +16,7 @@ form, button, p, blockquote, li, th, td {
 	font-family: "Poppins", sans-serif;
 }
 
-/****************************** Navbar Elements ******************************/
+/* Navbar Elements */
 
 .navbar-inverse .navbar-nav>.active>a {
 	background-color: #222;
@@ -32,7 +32,7 @@ form, button, p, blockquote, li, th, td {
 	border-bottom-left-radius: 10px;
 }
 
-/****************************** Body Elements ******************************/
+/* Body Elements */
 
 blockquote {
 	font-style: italic; 
@@ -65,7 +65,7 @@ th {
 	border: none;
 }
 
-/****************************** Ping-Pong Animation ******************************/
+/* Ping-Pong Animation */
 
 .ball {
 	padding-top:10%;
@@ -73,8 +73,21 @@ th {
 	border-radius: 50%;
 	position: absolute;
 	top: 20%;
-	left: 45%;
+}
+
+.ball-white{
+	left: 25%;
 	background-color: #fff;
+}
+
+.ball-white2{
+	left:75%;
+	background-color:#fff;
+}
+
+.ball-orange{
+	left:50%;
+	background-color: orange;
 }
 
 .stage {
@@ -85,60 +98,71 @@ th {
 }
 
 @keyframes bounce {
-	0% {
-		top:20%
-	10% {
+	0%{
+		top:20%;
+	}
+	10%{
 		top:80%;
 	}
-	20% {
+	20%{
 		top:44%;
 	}
-	28% {
+	28%{
 		top:80%;
 	}
-	36% {
-		top:58.5%;
+	36%{
+		top:59%;
 	}
-	42.5% {
-		top: 80%;
-	}
-	49% {
-		top: 67%;
-	}
-	55%{
+	43%{
 		top:80%;
 	}
-	61%{
+	50%{
+		top:67%;
+	}
+	56%{
+		top:80%;
+	}
+	62%{
 		top:72%;
 	}
-	67% {
+	68%{
 		top:80%;
 	}
-	73% {
+	74%{
 		top:75%;
 	}
-	78% {
+	79%{
 		top:80%;
 	}
-	83% {
-		top:77%;
+	84%{
+		top:78%;
 	}
 	88%{
 		top:80%;
 	}
-	93%{
+	92%{
 		top:79%;
 	}
-	100% {
-		top:80%;	
+	96%{
+		top:80%;
+	}
+	98%{
+		top:79%;
+	}
+	100%{
+		top:80%;
 	}
 }
 
-.stage:hover .bounce {
-	animation: bounce 5s ease-in-out infinite;
+.stage:hover .bounce1 {
+	animation: bounce 3s ease-in-out infinite;
 }
 
-/******************************* Footer Nav ******************************/
+.stage:hover .bounce2 {
+	animation: bounce 3s ease-in-out 1.5s infinite;
+}
+
+/* Footer Nav */
 #footer-nav {
 	display: none;
 	border-top-left-radius: 10px;
@@ -149,9 +173,9 @@ th {
 	font-size: 14px;
 }
 
-/****************************** Styling for Desktops and Larger ******************************/
+/* Styling for Desktops and Larger */
 
-@media (min-width: 768px) {
+@media(min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
