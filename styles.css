@@ -86,71 +86,55 @@ th {
 
 @keyframes bounce {
 	0% {
-		top:20%;
-	}
-
+		top:20%
 	10% {
 		top:80%;
 	}
-
 	20% {
 		top:44%;
 	}
-	
 	28% {
 		top:80%;
 	}
-
 	36% {
-		top:58%;
+		top:58.5%;
 	}
-
-	42% {
+	42.5% {
 		top: 80%;
 	}
-
 	49% {
 		top: 67%;
 	}
-
-	55% {
+	55%{
 		top:80%;
 	}
-
-	61% {
+	61%{
 		top:72%;
 	}
-
 	67% {
 		top:80%;
 	}
-
 	73% {
 		top:75%;
 	}
-
 	78% {
 		top:80%;
 	}
-
 	83% {
 		top:77%;
 	}
-
-	88% {
+	88%{
 		top:80%;
 	}
-
-	93% {
+	93%{
 		top:79%;
 	}
-
 	100% {
 		top:80%;	
 	}
 }
 
-.stage:hover .bounce{
+.stage:hover .bounce {
 	animation: bounce 5s ease-in-out infinite;
 }
 
